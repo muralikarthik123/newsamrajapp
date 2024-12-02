@@ -1,6 +1,6 @@
 import React from 'react'
 import './start.css'
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 export default function home() {
   return (
     <div className='p1'>
