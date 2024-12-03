@@ -1,0 +1,50 @@
+@media(max-width:500px){
+    .p2{
+        width:90%;
+        margin: 5%;
+        .img2{
+            width:100%;
+            height:40vh;
+            border-radius: 20px;
+        }
+        h1{
+            font-size: 30px;
+            color:#7391d3;
+        }
+        .more{
+            padding-left: 75%;
+            font-size:20px;
+            margin-top: -20px;
+            color:#7391d3;
+        }
+
+        .icon1{
+            margin-top: -15px;
+            color:#7391d3;
+        }
+        
+        .c1{
+            display:flex;
+            gap:40%;
+            margin-top: 10px;
+            margin-left: 12%;
+           .boxes{
+            width:70px;
+            text-align: center;
+            .bt13{
+                width:100%;
+                height:60px;
+                background-color:#7391d3;
+                border-radius: 10px;
+                border:none;
+                font-size: 16px;
+                .icons{
+                    font-size: 35px;
+                    color:rgb(234, 232, 224);         
+                }
+            }
+           }
+            
+        }
+    }
+}
