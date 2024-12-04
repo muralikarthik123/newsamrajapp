@@ -53,7 +53,7 @@ export default function home() {
       </div>
       {/*terms and conditions*/}
       <div className='terms'>
-        <p style={{textAlign:'center',paddingTop:'5%'}}>Terms & Conditions</p>
+        <p style={{textAlign:'center',paddingTop:'3%'}}>Terms & Conditions</p>
       </div>
     
     </div>
