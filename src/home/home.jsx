@@ -8,14 +8,22 @@ import { HiChevronDoubleRight } from "react-icons/hi2";
 export default function home() {
   return (
     <div className='p2'>
-      <img className='img2' src='./img2.png' alt=''/>
+      {/*logo*/}
+      <div className='c1'>
+        <img className='logo' src='./logo.png' alt=''/>
+      </div>
+
+      {/*main image*/}
+      <img className='img2' src='./img2.jpeg' alt=''/>
       <br/>
+
+      {/*feactures*/}
       <h1>Explore</h1>
       <div style={{display:'flex'}}>
         <p className='more'>more</p>
         <HiChevronDoubleRight className='icon1'/>
       </div>
-      <div className='c1'>
+      <div className='c2'>
         {/*1 and 2 buttons*/}
             <div className='boxes'>
             <button className='bt13'>< MdCalculate className='icons'/></button>
@@ -29,7 +37,7 @@ export default function home() {
             <p>Subsidy</p>
             </div>
       </div>
-      <div className='c1'>
+      <div className='c2'>
         {/*3 and 4 button */}
           <div className='boxes'>
             <button className='bt13'><AiFillRobot className='icons'/></button>
