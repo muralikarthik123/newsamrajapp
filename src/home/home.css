@@ -52,8 +52,14 @@
                     color:#0b3182;        
                 }
             }
-           }
-            
+           }           
+        }
+        .terms{
+            width:100%;
+            background-color:#0b3182 ;
+            color:white;
+            height:30px;
+            min-height: 6vh;
         }
     }
 }
