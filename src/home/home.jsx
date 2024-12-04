@@ -10,7 +10,7 @@ export default function home() {
     <div className='p2'>
       {/*logo*/}
       <div className='c1'>
-        <img className='logo' src='./logo.png' alt=''/>
+        <img className='logo' src='./logo.jpg' alt=''/>
       </div>
 
       {/*main image*/}
