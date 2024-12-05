@@ -5,9 +5,11 @@
         color:#0b3182;
         h2{
             text-align: center;
+            width:90%;
+            padding-left: 5%;
         }
         .c1{
-           margin-left: 23%;
+           margin-left: 25%;
            width:50%;
            label{
             width:150px;
