@@ -5,7 +5,13 @@ import { IoSearchCircleSharp } from "react-icons/io5";
 import { AiFillRobot } from "react-icons/ai";
 import { MdEditSquare } from "react-icons/md";
 import { HiChevronDoubleRight } from "react-icons/hi2";
-export default function home() {
+import { useNavigate } from 'react-router-dom';
+export default function Home() {
+
+  const Nav=useNavigate()
+  const open=()=>{
+    Nav('/cal')
+  }
   return (
     <div className='p2'>
       {/*logo*/}
@@ -23,16 +29,18 @@ export default function home() {
         <p className='more'>more</p>
         <HiChevronDoubleRight className='icon1'/>
       </div>
+
+
       <div className='c2'>
         {/*1 and 2 buttons*/}
             <div className='boxes'>
-            <button className='bt13'>< MdCalculate className='icons'/></button>
+            <button onClick={open} className='bt13'>< MdCalculate className='icons'/></button>
             <br/>
-            <p>Calucaltor</p>
+            <p> Solar Calculator</p>
             </div>
 
             <div className='boxes'>
-            <button className='bt13'><IoSearchCircleSharp className='icon2'/></button>
+            <button   className='bt13'><IoSearchCircleSharp className='icon2'/></button>
             <br/>
             <p>Subsidy</p>
             </div>

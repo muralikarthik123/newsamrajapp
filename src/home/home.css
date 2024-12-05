@@ -60,7 +60,7 @@
             color:white;
             height:30px;
             min-height: 6vh;
-            margin-top: 10vh;
+            bottom: 0px;
         }
     }
 }

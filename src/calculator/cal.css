@@ -1,0 +1,39 @@
+@media(max-width:500px){
+    .cal{
+        width:100%;
+        margin-top: 50%;
+        color:#0b3182;
+        h2{
+            text-align: center;
+        }
+        .c1{
+           margin-left: 23%;
+           width:50%;
+           label{
+            width:150px;
+            font-size: 1.3rem;
+            font-weight: 500;
+           }
+           input{
+            height:40px;
+            width:200px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border:none;
+            border:1px solid black;
+           }
+           button{
+            width:150px;
+            border:none;
+            background-color:#0b3182;
+            font-size: 18px;
+            color:white;
+            border-radius: 5px;
+            height:40px;
+            margin-top: 20px;
+           }
+        }
+    }
+}
+
+
