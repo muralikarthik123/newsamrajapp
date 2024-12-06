@@ -12,6 +12,10 @@ export default function Home() {
   const open=()=>{
     Nav('/cal')
   }
+
+  const subsidy=()=>{
+    Nav('/sub')
+  }
   return (
     <div className='p2'>
       {/*logo*/}
@@ -40,7 +44,7 @@ export default function Home() {
             </div>
 
             <div className='boxes'>
-            <button   className='bt13'><IoSearchCircleSharp className='icon2'/></button>
+            <button   onClick={subsidy} className='bt13'><IoSearchCircleSharp className='icon2'/></button>
             <br/>
             <p>Subsidy</p>
             </div>

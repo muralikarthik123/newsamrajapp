@@ -46,6 +46,7 @@ function KilowattCalculator() {
       </button>
       <h3>Total kWh: {kwh} kWh</h3>
       </div>
+    
     </div>
   );
 }
