@@ -16,6 +16,10 @@ export default function Home() {
   const subsidy=()=>{
     Nav('/sub')
   }
+
+  const customer=()=>{
+    Nav('/cust')
+  }
   return (
     <div className='p2'>
       {/*logo*/}
@@ -52,7 +56,7 @@ export default function Home() {
       <div className='c2'>
         {/*3 and 4 button */}
           <div className='boxes'>
-            <button className='bt13'><AiFillRobot className='icons'/></button>
+            <button  onClick={customer} className='bt13'><AiFillRobot className='icons'/></button>
             <br/>
             <p>Customer Service</p>
           </div>
