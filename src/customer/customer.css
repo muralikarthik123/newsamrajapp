@@ -1,12 +1,27 @@
 @media(max-width:500px){
     .chatbot-container {
-        width: 80%;
-        margin: 50px auto;
-        border: 1px solid #ccc;
-        padding: 10px;
-        border-radius: 10px;
+        width: 100%;
+        background-color: #f0f2f4;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
+
+      .botname{
+        padding-top: 15px;
+        padding-left: 20px;
+        height:70px;
+        display:flex;
+        background-color:#0b3182;;
+        .botimage{
+          width:60px;
+          border-radius: 50%;
+        }
+        p{
+          padding-left: 20px;
+          color:white;
+          font-size: 20px;
+        }
+      }
+
       
       .chatbox {
         height: 80vh;
@@ -16,34 +31,38 @@
       
       .message {
         padding: 8px;
-        margin: 5px 0;
+        margin: 10px 0;
         border-radius: 5px;
         max-width: 80%;
       }
       
       .message.bot {
         background-color: #5f89e5;
+        margin-left: 10px;
         color:white;
         align-self: flex-start;
       }
       
       .message.user {
-        background-color: #ec9e73;
+        background-color: rgb(56, 188, 56);
+        margin-right: 10px;
         color:white;
         align-self: flex-end;
         margin-left: 50%;
+        
       }
       
       .chat-input input {
         width: 70%;
         padding: 8px;
         margin-right: 5px;
-        border: 1px solid #ccc;
+        border: 1px solid white;
         border-radius: 5px;
+        height:20px;
       }
       
       .chat-input button {
-        padding: 8px;
+        height:35px;
         background-color: #0b3182;
         color: white;
         border: none;

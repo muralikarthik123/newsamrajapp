@@ -94,6 +94,15 @@ const ChatBot = () => {
 
   return (
     <div className="chatbot-container">
+      {/*name fo the bot */}
+      <div className='botname'>
+        <div>
+          <img className='botimage' src='./botimage.jpg' alt=''/>
+        </div>
+        <div>
+          <p>Samraj solar Energies Bot</p>
+        </div>
+      </div>
       <div className="chatbox">
       {messages.map((msg, index) => (
         <div key={index} className={`message ${msg.sender}`}>
@@ -108,7 +117,7 @@ const ChatBot = () => {
           type="text"
           value={userInput}
           onChange={handleUserInput}
-          placeholder="Ask me about solar energy or Samraj Solar Energies..."
+          placeholder="Ask me about Queries in  Samraj Solar Energies..."
         />
         <button type="submit">Send</button>
       </form>
