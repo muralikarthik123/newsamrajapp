@@ -20,35 +20,35 @@ const ChatBot = () => {
     if (lowerInput.includes("samraj solar")) {
       return "Samraj Solar energy is a renewable source that helps reduce electricity bills and decreases the carbon footprint. It’s clean, green, and cost-effective in the long run.";
     } else if (lowerInput.includes("subsidy")) {
-      return "To claim subsidies, you need to apply through the government portal and within 30 to 45 Days You can Claim Your Subsidy  as per Government Noms or get in touch with our team at Samraj Solar Energies for assistance.If u have Query still please Click Yes Otherwise PLease Click No";
+      return "To claim subsidies, you need to apply through the government portal and within 30 to 45 Days You can Claim Your Subsidy  as per Government Noms or get in touch with our team at Samraj Solar Energies for assistance.If u have Query still please Click Yes Otherwise PLease Click exit";
     }
     else if (lowerInput.includes("fine")) {
       return "So many I Know your Query is about Subsidy or other.";
     } 
     else if (lowerInput.includes("installation")) {
-      return "Have you Recived the Solar Pannels From the Samraj Solar Energies?. If u have received Click received or else Click not received.";
+      return "Have you Recived the Solar Pannels From the Samraj Solar Energies?. If u have received Click yes recieved or else Click no not received.";
     } 
     else if (lowerInput.includes("not")) {
-      return " We Kindly Appolizes you for the  Delay , Due to heavy Delivery in the City,the Process has been Delayed. We will Soon Deliver You Solar Pannels,if u have any Query please Click yes otherwise Click No";
+      return " We Kindly Appolizes you for the  Delay , Due to heavy Delivery in the City,the Process has been Delayed. We will Soon Deliver You Solar Pannels,if u have any Query please Click yes otherwise Click exit";
     }
     else if (lowerInput.includes("received")) {
-      return "As You have recevied the Solar Pannels from Samraj Solar Energies We will Soon Assign Site Surey to you and Install the Pannels as soon as Possible,if u have any Query please Click yes otherwise Click No";
+      return "As You have recevied the Solar Pannels from Samraj Solar Energies We will Soon Assign Site Surey to you and Install the Pannels as soon as Possible,if u have any Query please Click yes otherwise Click exit";
     } 
 
     else if (lowerInput.includes("other")) {
       return "About the Installation or About Warranty or About samraj or if u have any other query please Book an appionment a Memeber from our team will Kindly Contact you";
     }
     else if (lowerInput.includes("warranty")) {
-      return "Service Warranty is upto 25 years and Structure Warranty is About 5 Years if u have any Query please Click yes otherwise Click No";
+      return "Service Warranty is upto 25 years and Structure Warranty is About 5 Years if u have any Query please Click yes otherwise Click exit ";
     }
     else if (lowerInput.includes("yes")) {
       return "If your Query is About the Installation or About Warranty  or if u have any other query please Book an appionment a Memeber from our team will Kindly Contact you";
     }
-    else if (lowerInput === "no") {
-      // Redirect to the home page when user types "no"
+    else if (lowerInput === "exit") {
+      // Redirect to the home page when user types "exit"
      setInterval(() => {
-      navigate("/");  
-     }, 3000);    
+      navigate("/home");  
+     }, 2000);    
       return "Thank You.... we will Soon  Redirect you to Home Page  Shortly ";
     }
     else {
