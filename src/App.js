@@ -3,6 +3,7 @@ import Start from './start/start.jsx'
 import Home from './home/home.jsx'
 import Cal from './calculator/cal.jsx'
 import Subsidy from './subsidy/subsidy.jsx'
+import Reg from './registrartion/registration.jsx'
 import Customer from './customer/customer.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Route path='/cal' element={<Cal/>}/>
           <Route path='/sub' element={<Subsidy/>}/>
           <Route path='/cust' element={<Customer/>}/>
+          <Route path='/reg' element={<Reg/>}/>
         </Routes>
       </BrowserRouter>
     </div>

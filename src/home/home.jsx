@@ -20,6 +20,10 @@ export default function Home() {
   const customer=()=>{
     Nav('/cust')
   }
+
+  const reg=()=>{
+    Nav('/reg')
+  }
   return (
     <div className='p2'>
       {/*logo*/}
@@ -62,7 +66,7 @@ export default function Home() {
           </div>
 
           <div className='boxes'>
-            <button className='bt13'><MdEditSquare  className='icons'/></button>
+            <button   onClick={reg} className='bt13'><MdEditSquare  className='icons'/></button>
             <br/>
             <p>Registration</p>
           </div>      
