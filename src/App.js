@@ -5,6 +5,8 @@ import Cal from './calculator/cal.jsx'
 import Subsidy from './subsidy/subsidy.jsx'
 import Reg from './registrartion/registration.jsx'
 import Customer from './customer/customer.jsx'
+import More from './more/more.jsx'
+import Terms from './terms/terms.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
           <Route path='/sub' element={<Subsidy/>}/>
           <Route path='/cust' element={<Customer/>}/>
           <Route path='/reg' element={<Reg/>}/>
+          <Route path='/more' element={<More/>}/>
+          <Route path='/terms' element={<Terms/>}/>
         </Routes>
       </BrowserRouter>
     </div>

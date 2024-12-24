@@ -5,7 +5,7 @@ import { IoSearchCircleSharp } from "react-icons/io5";
 import { AiFillRobot } from "react-icons/ai";
 import { MdEditSquare } from "react-icons/md";
 import { HiChevronDoubleRight } from "react-icons/hi2";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 export default function Home() {
 
   const Nav=useNavigate()
@@ -38,7 +38,7 @@ export default function Home() {
       {/*feactures*/}
       <h1>Explore</h1>
       <div style={{display:'flex'}}>
-        <p className='more'>more</p>
+      <p className='more' ><Link to='/more' style={{textDecoration:'none',color:'#0b3182'}}>more</Link></p>
         <HiChevronDoubleRight className='icon1'/>
       </div>
 
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
       {/*terms and conditions*/}
       <div className='terms'>
-        <p style={{textAlign:'center',paddingTop:'3%'}}>Terms & Conditions</p>
+        <p style={{textAlign:'center',paddingTop:'3%'}}><Link to='/terms' style={{color:'white',textDecoration:'none'}}>Terms & Conditions</Link></p>
       </div>
     
     </div>
