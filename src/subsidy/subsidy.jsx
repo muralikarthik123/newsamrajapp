@@ -7,7 +7,7 @@ export default function subsidy() {
       <b>Subidy Status</b>
       <br/>
       <ol>
-        <li>Click On the website Link <a style={{color:'black'}} href='https://www.pmsuryaghar.gov.in/'>https://www.pmsuryaghar.gov.in/</a></li>
+        <li>Click On the website Link <a style={{color:'black'}} href='https://www.pmsuryaghar.gov.in/consumerLogin'>https://www.pmsuryaghar.gov.in/consumerLogin</a></li>
         <br/>
         <li>Then Click on Login and Click on Consumer Login</li>
         <br/>
