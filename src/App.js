@@ -7,6 +7,7 @@ import Reg from './registrartion/registration.jsx'
 import Customer from './customer/customer.jsx'
 import More from './more/more.jsx'
 import Terms from './terms/terms.jsx'
+import Status from './customerstatus/customerstatus.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path='/reg' element={<Reg/>}/>
           <Route path='/more' element={<More/>}/>
           <Route path='/terms' element={<Terms/>}/>
+          <Route path='/status' element={<Status/>}/>
         </Routes>
       </BrowserRouter>
     </div>

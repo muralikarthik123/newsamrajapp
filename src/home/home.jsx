@@ -71,7 +71,14 @@ export default function Home() {
             <p>Registration</p>
           </div>      
       </div>
+
+      {/*customer status button*/}
+      <div className='customerstatus'>
+        <Link to='/status'><button className='bt1'>Customer Status</button></Link>
+      </div>
+
       {/*terms and conditions*/}
+      <br/>
       <div className='terms'>
         <p style={{textAlign:'center',paddingTop:'3%'}}><Link to='/terms' style={{color:'white',textDecoration:'none'}}>Terms & Conditions</Link></p>
       </div>
